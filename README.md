@@ -1,3 +1,18 @@
+## Set up your Ride Report fancy kube + git prompt!
+
+Do this:
+
+    git clone git@github.com/jonmosco/kube-ps1.git .kube-ps1
+    git clone git@github.com/RideReport/bash-git-prompt.git .bash-git-prompt
+
+And then put this in your `.bashrc`:
+
+    source .kube-ps1/kube-ps1.sh
+    GIT_PROMPT_THEME=Solarized_kube
+    source ~/.bash-git-prompt/gitprompt.sh
+    
+Now party.
+
 # Informative git prompt for bash and fish
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/magicmonty/bash-git-prompt?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
